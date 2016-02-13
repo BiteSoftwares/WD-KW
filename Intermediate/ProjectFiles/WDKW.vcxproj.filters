@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\WDKW.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{44623240-B13D-49A8-A3CB-412E484189C8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WDKW.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WDKWEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{16FFAED4-455B-4A27-9BAD-986BBD8731B9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\WDKW">
+      <UniqueIdentifier>{401CA644-AB3B-428C-844A-691D53161567}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WDKW\WDKW.Build.cs">
+      <Filter>Source\WDKW</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\WDKW\WDKW.cpp">
+      <Filter>Source\WDKW</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WDKW\WDKW.h">
+      <Filter>Source\WDKW</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WDKW\WDKWGameMode.cpp">
+      <Filter>Source\WDKW</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WDKW\WDKWGameMode.h">
+      <Filter>Source\WDKW</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\WDKW\WDKWPlayerController.h">
+      <Filter>Source\WDKW</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\WDKW\WDKWPlayerController.cpp">
+      <Filter>Source\WDKW</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
